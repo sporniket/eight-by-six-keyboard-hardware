@@ -1,34 +1,52 @@
-# HOW TO USE
+# 8 columns × 6 rows keyboard hardware
 
-## Initialise your git repository
+> [WARNING] Please read carefully this note before using this project. It contains important facts.
 
-* clone this repository
-```
-git clone --recurse-submodules https://github.com/sporniket/seed-kicad.git your_project
-cd your_project
-```
-* Change the remote `origin` to your repository
-```
-git remote set-url origin https://your.repository/full/path/your_project.git
-```
-* Or remove the remote `origin`
-```
-git remote rm origin
-```
+Content
 
-* Replace this readme file by the template for a project readme, and edit to use your project name and repository url.
+1. What is **8 columns × 6 rows keyboard hardware**, and when to use it ?
+2. What should you know before using **8 columns × 6 rows keyboard hardware** ?
+3. How to use **8 columns × 6 rows keyboard hardware** ?
+4. Known issues
+5. Miscellanous
 
-```
-mv README-template.md README.md
-sed -i.bak \
-	-e 's/{HUMAN_READABLE_PROJECT_NAME}/My greatest project of all time/g' \
-	-e 's+{GITHUB_USER__REPOSITORY}+foo/bar+g' \
-	-e 's/{SPECIFIC TOOL}/something/g' \
-	README.md
-```
+## 1. What is **8 columns × 6 rows keyboard hardware**, and when to use it ?
 
-## Initialise a new Kicad project
+**8 columns × 6 rows keyboard hardware** is a hardware project of an ortholinear, 8 columns by 6 rows, DIY keyboard. This keyboard has an I2C port to be driven by the micro-controller of your choice (Raspberry Pi Pico, Espressif ESP32, ATmega, ...)
 
-* Start Kicad
-* Create a new project located in your working copy of your git repository, or a new subfolder if you plan to manage several projects
-* Add the various libraries (symbols, footprints and 3d shapes) as project specific libraries.
+
+### Licence
+
+**8 columns × 6 rows keyboard hardware** is published under the Creative Commons CC0 license. You can find a copy of the licence there : https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+
+**8 columns × 6 rows keyboard hardware** is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+### Release notes
+
+> No releases yet
+
+## 2. What should you know before using **8 columns × 6 rows keyboard hardware** ?
+
+**8 columns × 6 rows keyboard hardware** is made using Kicad 5.
+
+> Do not use **8 columns × 6 rows keyboard hardware** if this project is not suitable for your project.
+
+## 3. How to use **8 columns × 6 rows keyboard hardware** ?
+
+### From sources
+
+To get the latest available work, one must clone the git repository, build and install the package.
+
+	git clone https://github.com/sporniket/eight-by-six-keyboard-hardware.git
+
+Then, open the project with Kicad 5.
+
+## 4. Known issues
+See the [project issues](https://github.com/sporniket/eight-by-six-keyboard-hardware/issues) page.
+
+## 5. Miscellanous
+
+### Report issues
+Use the [project issues](https://github.com/sporniket/eight-by-six-keyboard-hardware/issues) page.
