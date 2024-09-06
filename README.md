@@ -12,7 +12,7 @@ Content
 
 ## 1. What is **8 columns × 6 rows keyboard hardware**, and when to use it ?
 
-**8 columns × 6 rows keyboard hardware** is a hardware project of an ortholinear, 8 columns by 6 rows, DIY keyboard. This keyboard has an I2C port to be driven by the micro-controller of your choice (Raspberry Pi Pico, Espressif ESP32, ATmega, ...)
+**8 columns × 6 rows keyboard hardware** is a hardware project of an ortholinear, 8 columns by 6 rows, DIY keyboard. This keyboard 2 connectors port to plug a driver board that will be driven by the micro-controller of your choice (Raspberry Pi Pico, Espressif ESP32, ATmega, ...) and will be responsible for scanning the state of the matrix of keys, displaying status and communicate with the host computer.
 
 
 ### Licence
@@ -29,7 +29,8 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 ## 2. What should you know before using **8 columns × 6 rows keyboard hardware** ?
 
-**8 columns × 6 rows keyboard hardware** is made using Kicad 5.
+* **8 columns × 6 rows keyboard hardware** is made using Kicad 8.
+* This project use the footprint library of key switches from : https://github.com/siderakb/key-switches.pretty
 
 > Do not use **8 columns × 6 rows keyboard hardware** if this project is not suitable for your project.
 
@@ -39,9 +40,9 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 To get the latest available work, one must clone the git repository, build and install the package.
 
-	git clone https://github.com/sporniket/eight-by-six-keyboard-hardware.git
+	git clone --recurse-submodules https://github.com/sporniket/eight-by-six-keyboard-hardware.git
 
-Then, open the project with Kicad 5.
+Then, open the project with Kicad 8.
 
 ## 4. Known issues
 See the [project issues](https://github.com/sporniket/eight-by-six-keyboard-hardware/issues) page.
