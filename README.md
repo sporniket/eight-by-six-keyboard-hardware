@@ -14,6 +14,7 @@ Content
 
 **8 columns × 6 rows keyboard hardware** is a hardware project of an ortholinear, 8 columns by 6 rows, DIY keyboard. This keyboard has 2 connectors port to plug a driver board that will be driven by the micro-controller of your choice (Raspberry Pi Pico, Espressif ESP32, ATmega, ...) and will be responsible for scanning keys, displaying status and communicate with the host computer.
 
+![PCB preview](gallery/overview.png)
 
 ### Licence
 
